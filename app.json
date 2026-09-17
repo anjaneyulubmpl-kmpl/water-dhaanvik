@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Water Dhaanvik",
+    "slug": "water-dhaanvik",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "waterdhaanvik",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.waterdhaanvik.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Water Dhaanvik to use your location to estimate groundwater availability."
+        }
+      ]
+    ]
+  }
+}
